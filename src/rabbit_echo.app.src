@@ -1,0 +1,12 @@
+{application, rabbit_echo,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { rabbit_echo_app, []}},
+  {env, []}
+ ]}.
